@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Password Generator</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="options">
+            <label>
+                <input type="checkbox" id="includeUppercase"> Include Uppercase Letters
+            </label>
+            <label>
+                <input type="checkbox" id="includeLowercase" checked> Include Lowercase Letters
+            </label>
+            <label>
+                <input type="checkbox" id="includeNumbers" checked> Include Numbers
+            </label>
+            <label>
+                <input type="checkbox" id="includeSpecialChars" checked> Include Special Characters
+            </label>
+        </div>
+        <label for="passwordLength">Password Length:</label>
+        <select id="passwordLength">
+            <option value="6">6 Characters</option>
+            <option value="8">8 Characters</option>
+            <option value="12" selected>12 Characters</option>
+        </select>
+        <button onclick="generatePassword()">Generate Password</button>
+        <button onclick="correctPassword()">Correct Password</button>
+        <button onclick="copyPassword()">Copy Password</button>
+        <button onclick="encryptPassword()">Encrypt Password</button>
+        <button onclick="decryptPassword()">Decrypt Password</button>
+        <div id="password" class="password-container"></div>
+    </div>
+
+    <script  src="script.js" > </script> 
+    
+</body>
+</html>
