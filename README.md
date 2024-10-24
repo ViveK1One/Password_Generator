@@ -30,6 +30,11 @@ HTML5: Markup structure of the app.
 CSS3: Styling and layout of the app.
 JavaScript: Core logic for password generation and interaction.
 
+You can see the live demo of the project:-
+![Screenshot 2024-10-24 190520](https://github.com/user-attachments/assets/33984e87-fd78-412e-ac51-90b0a398f4bd)
+![Screenshot 2024-10-24 190442](https://github.com/user-attachments/assets/ce4c4b90-31ad-4ea2-8e7b-4cfe6d4fdf76)
+
+
 Setup
 Follow the instructions below to run the project locally:
 
