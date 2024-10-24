@@ -35,7 +35,7 @@ Follow the instructions below to run the project locally:
 
 Clone the repository:
 
-git clone https://github.com/your-username/password-generator.git
+git clone https://github.com/Vivek1One/password-generator.git
 
 Navigate to the project folder:
 cd password-generator
