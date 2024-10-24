@@ -61,11 +61,11 @@ function copyPassword() {
 }
 
 // Function to decrypt the password (optional)
-function decryptPassword(encrypted) {
-    const bytes = CryptoJS.AES.decrypt(encrypted, "secret-key-123");
-    const originalPassword = bytes.toString(CryptoJS.enc.Utf8);
-    return originalPassword;
-}
+// function decryptPassword(encrypted) {
+//     const bytes = CryptoJS.AES.decrypt(encrypted, "secret-key-123");
+//     const originalPassword = bytes.toString(CryptoJS.enc.Utf8);
+//     return originalPassword;
+// }
 
 function correctPassword() {
     let password = document.getElementById("password").textContent;
